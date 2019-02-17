@@ -8,7 +8,6 @@
         var num = document.getElementById("n1");
         num.value = Math.pow(num.value, 3);
       }
-
       function sin() {
         var num = document.getElementById("n1");
         num.value = Math.sin(num.value);
@@ -16,6 +15,14 @@
       function fourth() {
         var num = document.getElementById("n1");
         num.value = Math.pow(num.value, 4);
+      }
+      function square() {
+        var num = document.getElementById("n1");
+        num.value = Math.pow(num.value, 2);
+      }
+      function inverse() {
+        var num = document.getElementById("n1");
+        num.value = 1/num.value;
       }
     </script>
     </head>
@@ -27,5 +34,7 @@
     <button onclick="cube()"> x^3 </button>
     <button onclick="sin()"> sin(x) </button>
     <button onclick="fourth()"> x^4 </button>
+    <button onclick="square()"> x^2 </button>
+    <button onclick="inverse()"> 1/x </button>
   </body>
 </html>
